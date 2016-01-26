@@ -47,7 +47,7 @@ img {
 	display: block;
 	float: left;
 	height: 60px;
-	margin: 0 44px 0 0;
+	margin: 0;
 	padding: 0;
 	width: 304px;
 }
@@ -701,7 +701,7 @@ img {
 	width: auto;
 }
 #body.about .section {
-	background-color: #3c0f38;
+	background-color: #243d57;
 	margin: 0;
 	min-height: 234px;
 	padding: 0;
@@ -843,7 +843,7 @@ img {
 	color: #a3a3a3;
 }
 #body .header div ul li div a.more {
-	background-color: #3c0f38;
+	background-color: #243d57;
 	color: #ffffff;
 	display: block;
 	float: right;
@@ -1003,7 +1003,7 @@ img {
 	color: #a3a3a3;
 }
 #body .header div .article ul li a.more {
-	background-color: #3c0f38;
+	background-color: #243d57;
 	color: #ffffff;
 	display: block;
 	float: right;
@@ -1276,7 +1276,7 @@ img {
 	width: 441px;
 }
 #body .header div form input#submit {
-	background-color: #3c0f38;
+	background-color: #243d57;
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
@@ -1420,6 +1420,7 @@ img {
 	display: block;
 	margin: auto 0 auto 0 !important;
 	line-height: 75px !important;
+	width: inherit;
 }
 
 @media only screen and (min-width: 959px) {

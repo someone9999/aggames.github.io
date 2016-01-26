@@ -217,7 +217,6 @@
 		float: left;
 		height: 60px;
 		padding: 0;
-		width: 79%;
 	}
 	#header div span#mobile-navigation {
 		background: transparent url(../images/mobile/mobile-menu.png) no-repeat;
@@ -232,8 +231,7 @@
 		z-index: 999;
 	}
 	#header div > ul#navigation {
-		background-image: none;
-		background: rgba(98, 0, 49, 0.91);
+		background: #243d57;
 		border: 1px solid #f1f2f2;
 		border-radius: 0;
 		display: none;
