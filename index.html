@@ -8,6 +8,36 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 	<script src="js/mobile.js" type="text/javascript"></script>
+	<script>
+		String.prototype.map = function(func) {
+			var ret = [];
+			for (var i = 0; i < this.length; i++) {
+				ret.push(func(this.charAt(i)));
+			}
+			return ret;
+		};
+
+		Array.prototype.same = function(other) {
+			if (this.length !== other.length) return false;
+			for (var i = 0; i < this.length; i++) {
+				if (this[i] !== other[i]) return false;
+			}
+			return true;
+		};
+
+		var keys=[];
+		var code = "hellokitty".map(function(c) {
+			return c;
+		});
+
+		document.onkeypress = function(e) {
+			keys.push(String.fromCharCode(e.keyCode));
+			if (keys.length > code.length) keys = keys.slice(keys.length - code.length);
+			if (keys.same(code)) {
+				document.getElementById("page").setAttribute("style", "background: url(\"./images/hellokitty.jpg\");");
+			}
+		}
+	</script>
 </head>
 <body>
 	<div id="page">
