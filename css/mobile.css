@@ -338,4 +338,7 @@
 		color: #eeeced;
 		text-decoration: none;
 	}
+    #header div a img {
+        margin: 7px 0 0 0;
+    }
 }
