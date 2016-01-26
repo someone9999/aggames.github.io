@@ -1378,7 +1378,7 @@ img {
 	background-position: -32px -76px;
 }
 #footer .footnote {
-	background-color: #FFFFFF;
+	background-color: black;
 	margin: 0;
 	min-height: 84px;
 	overflow: hidden;
@@ -1392,7 +1392,7 @@ img {
 	width: 960px;
 }
 #footer .footnote div p {
-	color: #000000;
+	color: white;
 	display: block;
 	font-family: Arial;
 	font-size: 12px;
@@ -1435,4 +1435,8 @@ img {
 
 #body.home .body-alt {
 	background-color: #151c2b;
+}
+
+body {
+	background-color: black;
 }
