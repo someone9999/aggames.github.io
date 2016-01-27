@@ -1433,10 +1433,14 @@ img {
 	margin-bottom: 20px !important;
 }
 
-#body.home .body-alt {
-	background-color: #151c2b;
+.body-alt {
+	background-color: #151c2b !important;
 }
 
 body {
 	background-color: black;
+}
+
+.about-person {
+	width: 200px !important;
 }
